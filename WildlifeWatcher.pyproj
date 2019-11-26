@@ -64,10 +64,12 @@
     <Folder Include="BirdBuddy\migrations\" />
     <Folder Include="BirdBuddy\templates\" />
     <Folder Include="BirdBuddy\templates\BirdBuddy\" />
+    <Folder Include="BirdBuddy\templates\BirdBuddy\static\" />
     <Folder Include="WildlifeWatcher\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="BirdBuddy\templates\BirdBuddy\index.html" />
+    <Content Include="BirdBuddy\templates\BirdBuddy\static\site.css" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
     <Content Include="app\static\app\content\bootstrap.css" />
