@@ -70,6 +70,9 @@
   <ItemGroup>
     <Content Include="BirdBuddy\templates\BirdBuddy\index.html" />
     <Content Include="BirdBuddy\templates\BirdBuddy\static\site.css" />
+    <Content Include="BirdBuddy\templates\BirdBuddy\about.html" />
+    <Content Include="BirdBuddy\templates\BirdBuddy\layout.html" />
+    <Content Include="BirdBuddy\templates\BirdBuddy\home.html" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
     <Content Include="app\static\app\content\bootstrap.css" />

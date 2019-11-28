@@ -12,7 +12,27 @@ def index(request):
         # "index.html", # Use this code for VS 2017 15.7 and earlier
         {
             'title' : "Stream Processor",
-            'message' : "Hello Django!",
+            'message' : "Please select input file",
             'content' : " on " + now.strftime("%A, %d %B, %Y at %X")
+        }
+    )
+
+def about(request):
+    return render(
+        request,
+        "BirdBuddy/about.html",
+        {
+            'title' : "About WildlifeWatcher",
+            'content' : "An AI powered wildlife camera"
+        }
+    )
+
+def home(request):
+    return render(
+        request,
+        "BirdBuddy/home.html",
+        {
+            'title' : "Home Page",
+            'content' : "Input"
         }
     )

@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.29306.81
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "WildlifeWatcher", "WildlifeWatcher.pyproj", "{E1023A82-F76E-43E7-AE12-CAE2174F786E}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "DjangoWeb", "..\DjangoWeb\DjangoWeb.pyproj", "{FA0B6B5E-39B0-4613-8D71-E2F6AF48541D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{E1023A82-F76E-43E7-AE12-CAE2174F786E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1023A82-F76E-43E7-AE12-CAE2174F786E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1023A82-F76E-43E7-AE12-CAE2174F786E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA0B6B5E-39B0-4613-8D71-E2F6AF48541D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA0B6B5E-39B0-4613-8D71-E2F6AF48541D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA0B6B5E-39B0-4613-8D71-E2F6AF48541D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA0B6B5E-39B0-4613-8D71-E2F6AF48541D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

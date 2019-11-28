@@ -39,7 +39,7 @@ def about(request):
         'app/about.html',
         {
             'title':'About',
-            'message':'Your application description page.',
+            'message':'AI powered bird watching camera',
             'year':datetime.now().year,
         }
     )
